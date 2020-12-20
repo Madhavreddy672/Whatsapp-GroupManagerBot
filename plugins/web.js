@@ -47,5 +47,5 @@ Asena.addCommand({pattern: 'ping', fromMe: true, deleteCommand: false, desc: Lan
   var end = new Date().getTime();
 
   await msg.delete();
-  await message.sendMessage('*Pong!*\n```' + (end - start) + 'ms```');
+  await message.sendMessage('*hehe!*\n```' + (end - start) + 'ms```');
 }));
