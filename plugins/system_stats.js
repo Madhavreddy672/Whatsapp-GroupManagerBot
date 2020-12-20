@@ -16,7 +16,7 @@ const Lang = Language.getString('system_stats');
 
 Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
     await message.sendMessage(
-        '```☠️𝙽𝚗𝚞 𝙱𝚊𝚝𝚑𝚒𝚔𝚎𝚢 𝚞𝚗𝚗𝚊𝚗𝚞 𝚁𝚊.🤗🤭```\n\n*Version:* ```'+Config.VERSION+'```\n*Telegram Group:* https://t.me/thunder_mirror_group\n*Youtube channel:* https://youtube.com/Beginnershub' , MessageType.text
+        '```☠️I'm alive ra mama🤗🤭```\n\n*Version:* ```'+Config.VERSION+'```\n*Telegram Group:* https://t.me/thunder_mirror_group\n*Youtube channel:* https://youtube.com/Beginnershub' , MessageType.text
     );
 }));
 
